@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -23,6 +24,11 @@ header {
     padding: 24px;
 }
 
+header h1 {
+    color: white;
+    font-weight: 400;
+}
+
 header img {
     height: 100px;
     margin-right: 16px;
@@ -37,11 +43,47 @@ form input {
     display: block;
     width: 100%;
     margin-bottom: 8px;
+    font-size: 18px;
+    padding: 8px;
+    border: none;
+    border-radius: 24px;
+}
+
+#nome-contato {
+    background-image: url(./midia/icone-contato.png);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 8px 8px;
+    padding-left: 38px;
+}
+
+#tel-contato {
+    background-image: url(./midia/icone-telefone.png);
+    background-repeat: no-repeat;
+    background-size: 24px;
+    background-position: 8px 8px;
+    padding-left: 38px;
 }
 
 form button {
     width: 30%;
     margin-right: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    border-radius: 24px;
+}
+
+#botao-add {
+    background-color: #009b83;
+    color: white;
+}
+
+#botao-reset {
+    background-color: #2a4540;
+    color: white;
 }
 
 .botoes {
@@ -50,17 +92,35 @@ form button {
 }
 
 table {
-    padding: 24px;
+    padding-top: 0;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 24px;
     width: 100%;
     background-color: #9dccb8;
 }
 
+table th {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    border-bottom: 2px solid #2a4540;
+}
+
 table td {
     text-align: center;
+    font-size: 16px;
+    padding: 8px;
+    border-bottom: 2px solid #487f68;
 }
 
 footer {
     text-align: center;
     background-color: #2a4540;
     padding: 24px;
+}
+
+footer p {
+    font-size: 12px;
+    color: white;
 }
